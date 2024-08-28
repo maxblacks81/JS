@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>My Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Raccolta dati</h1>
+        <p>Genere:</p>
+        <select id="myselect">
+        <option value="Dottore">Dottore</option>
+        <option value="Dottoressa">Dottoressa</option>
+        </select>
+        <p>Nome:</p>
+        <input type="text" id="nome" placeholder="Inserisci il nome" required><br><br>
+        <p>Cognome:</p>
+        <input type="text" id="cognome" placeholder="Inserisci il cognome" required><br><br>
+        <p>Eta':</p>
+        <input type="text" id="eta" placeholder="Inserisci l'eta" required><br><br>
+        <p>Dove vivi:</p>
+        <input type="text" id="citta" placeholder="Inserisci  la tua città" required><br><br>
+        <p>Che lavoro fai:</p>
+        <input type="text" id="lavoro" placeholder="Professione" required><br><br>
+        <p>Skills:</p>
+        <input type="text" id="skills" placeholder="Quali sono le tue skills" required><br><br>
+        <p>Esperienze passate di lavoro:</p>
+        <input type="text" id="experience" placeholder="Inserisci le tue esperienze lavorative" required><br><br>
+        <p>
+            Accetta la privacy <input type="checkbox" id="checkbox">
+        </p>
+        <button id="mybtn" class="btn">Invia dati</button>
+        <p id="risposta"></p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

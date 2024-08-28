@@ -1,0 +1,33 @@
+*{
+    font-size: 20px;
+}
+.container{
+    /*border: 1px blue solid;*/
+    padding: 0 200px;
+}
+h1{
+    /*border: 1px red solid;*/
+    padding-left: 100px;
+    text-align: center;
+    width:200px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+input{
+    width: 500px;
+    height: 40px;
+    background-color: #e0e0e0;
+    font-size: 15px;
+}
+.btn{
+    display: block;
+    border: 1px red dotted;
+    font-size: 30px;
+    color: green;
+}
+.btn:hover{
+    background-color: orange;
+}
